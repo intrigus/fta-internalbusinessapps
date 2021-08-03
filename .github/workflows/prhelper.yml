@@ -17,7 +17,7 @@ jobs:
       id: runprhelper
       uses: Matticusau/pr-helper@v1.2.3
       with:
-        repo-token: ${{ secrets.GHACTION_PAT }}
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
         enable-prmerge-automation: true
         enable-prcomment-automation: true
         enable-prlabel-automation: true
